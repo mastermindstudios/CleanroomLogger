@@ -183,7 +183,7 @@ open class XcodeLogConfiguration: BasicLogConfiguration
 
             if logToASL {
                 recorders = [
-                    ASLLogRecorder(formatters: formatters, echoToStdErr: false, addTraceAttributes: debugMode || verboseDebugMode),
+//                    ASLLogRecorder(formatters: formatters, echoToStdErr: false, addTraceAttributes: debugMode || verboseDebugMode),
                     StandardOutputLogRecorder(formatters: colorFormatters)
                 ]
             }
@@ -193,7 +193,8 @@ open class XcodeLogConfiguration: BasicLogConfiguration
         }
         else if logToASL {
             // automatically echoes to stdout
-            recorders = [ASLLogRecorder(formatters: formatters, echoToStdErr: true, addTraceAttributes: debugMode || verboseDebugMode)]
+            recorders = []
+//            recorders = [ASLLogRecorder(formatters: formatters, echoToStdErr: true, addTraceAttributes: debugMode || verboseDebugMode)]
         }
         else {
             recorders = [StandardOutputLogRecorder(formatters: formatters)]

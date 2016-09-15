@@ -25,10 +25,6 @@
 		3B525E431C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B525E411C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift */; };
 		3B525E441C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B525E411C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift */; };
 		3B525E451C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B525E411C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift */; };
-		3B6014951C24C073002652B3 /* ASLLogRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014801C24C073002652B3 /* ASLLogRecorder.swift */; };
-		3B6014961C24C073002652B3 /* ASLLogRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014801C24C073002652B3 /* ASLLogRecorder.swift */; };
-		3B6014971C24C073002652B3 /* ASLLogRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014801C24C073002652B3 /* ASLLogRecorder.swift */; };
-		3B6014981C24C073002652B3 /* ASLLogRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014801C24C073002652B3 /* ASLLogRecorder.swift */; };
 		3B6014991C24C073002652B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014811C24C073002652B3 /* Color.swift */; };
 		3B60149A1C24C073002652B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014811C24C073002652B3 /* Color.swift */; };
 		3B60149B1C24C073002652B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6014811C24C073002652B3 /* Color.swift */; };
@@ -117,7 +113,6 @@
 		3B7C1AC31C3B2F6E00DE72C4 /* CallingThreadLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C1AC11C3B2F6E00DE72C4 /* CallingThreadLogFormatter.swift */; };
 		3B7C1AC41C3B2F6E00DE72C4 /* CallingThreadLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C1AC11C3B2F6E00DE72C4 /* CallingThreadLogFormatter.swift */; };
 		3B7C1AC51C3B2F6E00DE72C4 /* CallingThreadLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C1AC11C3B2F6E00DE72C4 /* CallingThreadLogFormatter.swift */; };
-		3B8A13991D79429200140849 /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A13981D79429200140849 /* CleanroomASL.framework */; };
 		3B8A139B1D79429700140849 /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A139A1D79429700140849 /* CleanroomASL.framework */; };
 		3B8A139D1D79429C00140849 /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A139C1D79429C00140849 /* CleanroomASL.framework */; };
 		3B8A139F1D7942A000140849 /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A139E1D7942A000140849 /* CleanroomASL.framework */; };
@@ -227,7 +222,6 @@
 		3B45ADAF1C3B315200C3856B /* FieldBasedLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldBasedLogFormatter.swift; sourceTree = "<group>"; };
 		3B515C031D6E745F0068A72B /* LoggingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingTests.swift; sourceTree = "<group>"; };
 		3B525E411C35CBC90078A4C6 /* RotatingLogFileConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingLogFileConfiguration.swift; sourceTree = "<group>"; };
-		3B6014801C24C073002652B3 /* ASLLogRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLLogRecorder.swift; sourceTree = "<group>"; };
 		3B6014811C24C073002652B3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3B6014821C24C073002652B3 /* TextColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextColorizer.swift; sourceTree = "<group>"; };
 		3B6014831C24C073002652B3 /* ColorTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTable.swift; sourceTree = "<group>"; };
@@ -274,7 +268,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8A13991D79429200140849 /* CleanroomASL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +438,6 @@
 		3BB043C51C3B276F005C940A /* Recorders */ = {
 			isa = PBXGroup;
 			children = (
-				3B6014801C24C073002652B3 /* ASLLogRecorder.swift */,
 				3B6014881C24C073002652B3 /* FileLogRecorder.swift */,
 				3B6014911C24C073002652B3 /* LogRecorderBase.swift */,
 				3B6014841C24C073002652B3 /* RotatingLogFileRecorder.swift */,
@@ -769,7 +761,6 @@
 				3BDD486E1C3D974300B382F0 /* ParsableLogFormatter.swift in Sources */,
 				3B71B3171C3B2FB600C23333 /* SeverityLogFormatter.swift in Sources */,
 				3BB043C91C3B27FF005C940A /* TimestampLogFormatter.swift in Sources */,
-				3B6014951C24C073002652B3 /* ASLLogRecorder.swift in Sources */,
 				3B6014D51C24C073002652B3 /* LogRecorder.swift in Sources */,
 				3BB043CE1C3B282A005C940A /* CallSiteLogFormatter.swift in Sources */,
 				3B6014A51C24C073002652B3 /* RotatingLogFileRecorder.swift in Sources */,
@@ -822,7 +813,6 @@
 				3BDD486F1C3D974300B382F0 /* ParsableLogFormatter.swift in Sources */,
 				3B71B3181C3B2FB600C23333 /* SeverityLogFormatter.swift in Sources */,
 				3BB043CA1C3B27FF005C940A /* TimestampLogFormatter.swift in Sources */,
-				3B6014961C24C073002652B3 /* ASLLogRecorder.swift in Sources */,
 				3B6014D61C24C073002652B3 /* LogRecorder.swift in Sources */,
 				3BB043CF1C3B282A005C940A /* CallSiteLogFormatter.swift in Sources */,
 				3B6014A61C24C073002652B3 /* RotatingLogFileRecorder.swift in Sources */,
@@ -875,7 +865,6 @@
 				3BDD48701C3D974300B382F0 /* ParsableLogFormatter.swift in Sources */,
 				3B71B3191C3B2FB600C23333 /* SeverityLogFormatter.swift in Sources */,
 				3BB043CB1C3B27FF005C940A /* TimestampLogFormatter.swift in Sources */,
-				3B6014971C24C073002652B3 /* ASLLogRecorder.swift in Sources */,
 				3B6014D71C24C073002652B3 /* LogRecorder.swift in Sources */,
 				3BB043D01C3B282A005C940A /* CallSiteLogFormatter.swift in Sources */,
 				3B6014A71C24C073002652B3 /* RotatingLogFileRecorder.swift in Sources */,
@@ -928,7 +917,6 @@
 				3BDD48711C3D974300B382F0 /* ParsableLogFormatter.swift in Sources */,
 				3B71B31A1C3B2FB600C23333 /* SeverityLogFormatter.swift in Sources */,
 				3BB043CC1C3B27FF005C940A /* TimestampLogFormatter.swift in Sources */,
-				3B6014981C24C073002652B3 /* ASLLogRecorder.swift in Sources */,
 				3B6014D81C24C073002652B3 /* LogRecorder.swift in Sources */,
 				3BB043D11C3B282A005C940A /* CallSiteLogFormatter.swift in Sources */,
 				3B6014A81C24C073002652B3 /* RotatingLogFileRecorder.swift in Sources */,
